@@ -1,0 +1,64 @@
+.auth-full {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('../images/coins.jpg');
+    background-size: cover;
+    background-position: center;
+
+    .auth-con {
+        min-height: 100vh;
+        background: white;
+
+        // border: 1px solid transparent;
+        .nav {
+            background: #e5e5e5;
+
+            .nav-item {
+                .nav-link {
+                    font-size: 12px !important;
+                    color: rgb(78, 78, 240);
+                    border-radius: 25px;
+
+                    &.active {
+                        color: white;
+                        background: rgb(78, 78, 240);
+                    }
+                }
+            }
+        }
+
+        form {
+            height: 84vh;
+
+            input {
+                border: none;
+                border-bottom: 1px solid lightgrey;
+                font-size: 12px;
+                border-radius: 0px;
+                outline: none;
+                box-shadow: none;
+
+                &:active {
+                    outline: none;
+                    box-shadow: none;
+                }
+
+                &::placeholder {
+                    font-size: 12px;
+                }
+            }
+
+            input:-webkit-autofill,
+            input:-webkit-autofill:hover,
+            input:-webkit-autofill:focus,
+            input:-webkit-autofill:active {
+                -webkit-box-shadow: 0 0 0 30px white inset !important;
+            }
+
+            button {
+                height: 10vh;
+                position: absolute;
+                bottom: 0;
+                border-radius: 0px;
+            }
+        }
+    }
+}

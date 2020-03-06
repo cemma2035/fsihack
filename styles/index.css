@@ -1,0 +1,17 @@
+.welcome-full {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.7))), url("../images/coins.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("../images/coins.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.welcome-full .welcome-message {
+  min-height: 100vh;
+  color: white;
+  border: 1px solid transparent;
+}
+
+.welcome-full .welcome-message h2 {
+  color: #4e4ef0;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,77 @@
+.auth-full {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.7))), url("../images/coins.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("../images/coins.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.auth-full .auth-con {
+  min-height: 100vh;
+  background: white;
+}
+
+.auth-full .auth-con .nav {
+  background: #e5e5e5;
+}
+
+.auth-full .auth-con .nav .nav-item .nav-link {
+  font-size: 12px !important;
+  color: #4e4ef0;
+  border-radius: 25px;
+}
+
+.auth-full .auth-con .nav .nav-item .nav-link.active {
+  color: white;
+  background: #4e4ef0;
+}
+
+.auth-full .auth-con form {
+  height: 84vh;
+}
+
+.auth-full .auth-con form input {
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  font-size: 12px;
+  border-radius: 0px;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.auth-full .auth-con form input:active {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.auth-full .auth-con form input::-webkit-input-placeholder {
+  font-size: 12px;
+}
+
+.auth-full .auth-con form input:-ms-input-placeholder {
+  font-size: 12px;
+}
+
+.auth-full .auth-con form input::-ms-input-placeholder {
+  font-size: 12px;
+}
+
+.auth-full .auth-con form input::placeholder {
+  font-size: 12px;
+}
+
+.auth-full .auth-con form input:-webkit-autofill,
+.auth-full .auth-con form input:-webkit-autofill:hover,
+.auth-full .auth-con form input:-webkit-autofill:focus,
+.auth-full .auth-con form input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+.auth-full .auth-con form button {
+  height: 10vh;
+  position: absolute;
+  bottom: 0;
+  border-radius: 0px;
+}
+/*# sourceMappingURL=auth.css.map */

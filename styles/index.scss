@@ -1,0 +1,13 @@
+.welcome-full {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('../images/coins.jpg');
+    background-size: cover;
+    background-position: center;
+    .welcome-message {
+        min-height: 100vh;
+        color: white;
+        border: 1px solid transparent;
+        h2 {
+            color: rgb(78, 78, 240);
+        }
+    }
+}

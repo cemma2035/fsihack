@@ -1,0 +1,116 @@
+// Imports
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import "media-queries";
+
+#navbarSupportedContent ul li a {
+  font-size: 15px;
+  margin-right: 35px;
+}
+
+
+// Scrollbar styles
+.scroller {
+  overflow-y: scroll;
+  scrollbar-width: thin;
+
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    display: none;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    color: black;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px #343a40;
+  }
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.nunito {
+  font-family: 'Nunito', sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.grey {
+  color: grey;
+}
+.br-10px {
+  border-radius: 10px;
+}
+
+.font-12px {
+  font-size: 12px;
+}
+
+// Loader styling
+.loading-overlay {
+  min-height: 100vh;
+  background-color: rgba(11, 39, 61, 0.9)
+}
+
+.spinner-con {
+  height: 10vh;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.our-nav {
+    background: green;
+}
+
+.makeshift-logo-home {
+  border: 5px solid #4e4ef0;
+  color: rgb(78, 78, 240);
+  height: 15vh;
+  width: 15vh;
+  margin-top: 50%;
+  @include small-screens {
+    margin-top: 80%;
+  }
+}
+.next-btn {
+  color: white;
+  background: rgb(78, 78, 240);
+  border-radius: 50%;
+}
+.btn-brand {
+  color: white;
+  background: rgb(78, 78, 240);
+  &:hover {
+    color: white;
+    background: rgb(10, 10, 83);
+  }
+}
+
+.page-full {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('../images/coins.jpg');
+  background-size: cover;
+  background-position: center;
+  .page-con {
+      min-height: 100vh;
+      background: white;
+      .page-head {
+          height: 10vh;
+          background: #e5e5e5;
+          color: rgb(78, 78, 240);
+      }
+      .page-body {
+          height: 90vh;
+          align-content: flex-start !important;
+      }
+  }
+}

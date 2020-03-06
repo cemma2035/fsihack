@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+#navbarSupportedContent ul li a {
+  font-size: 15px;
+  margin-right: 35px;
+}
+
+.scroller {
+  overflow-y: scroll;
+  scrollbar-width: thin;
+}
+
+.scroller::-webkit-scrollbar {
+  width: 4px;
+}
+
+.scroller::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  display: none;
+}
+
+.scroller::-webkit-scrollbar-thumb {
+  color: black;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px #343a40;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.nunito {
+  font-family: 'Nunito', sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.grey {
+  color: grey;
+}
+
+.br-10px {
+  border-radius: 10px;
+}
+
+.font-12px {
+  font-size: 12px;
+}
+
+.loading-overlay {
+  min-height: 100vh;
+  background-color: rgba(11, 39, 61, 0.9);
+}
+
+.spinner-con {
+  height: 10vh;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.our-nav {
+  background: green;
+}
+
+.makeshift-logo-home {
+  border: 5px solid #4e4ef0;
+  color: #4e4ef0;
+  height: 15vh;
+  width: 15vh;
+  margin-top: 50%;
+}
+
+@media (max-width: 768px) {
+  .makeshift-logo-home {
+    margin-top: 80%;
+  }
+}
+
+.next-btn {
+  color: white;
+  background: #4e4ef0;
+  border-radius: 50%;
+}
+
+.btn-brand {
+  color: white;
+  background: #4e4ef0;
+}
+
+.btn-brand:hover {
+  color: white;
+  background: #0a0a53;
+}
+
+.page-full {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.7))), url("../images/coins.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("../images/coins.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.page-full .page-con {
+  min-height: 100vh;
+  background: white;
+}
+
+.page-full .page-con .page-head {
+  height: 10vh;
+  background: #e5e5e5;
+  color: #4e4ef0;
+}
+
+.page-full .page-con .page-body {
+  height: 90vh;
+  -ms-flex-line-pack: start !important;
+      align-content: flex-start !important;
+}
+/*# sourceMappingURL=global.css.map */

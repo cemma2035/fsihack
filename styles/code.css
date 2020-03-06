@@ -1,0 +1,19 @@
+form small {
+  font-size: 10px;
+}
+
+.big-success {
+  height: 35vh;
+  width: 35vh;
+  border-radius: 50%;
+}
+
+.big-success img {
+  height: 100%;
+  width: 100%;
+}
+
+.big-success h5 {
+  color: #4e4ef0;
+}
+/*# sourceMappingURL=code.css.map */

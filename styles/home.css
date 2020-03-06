@@ -1,0 +1,11 @@
+.app-functions-con .app-function {
+  height: 20vh;
+  border-radius: 15px;
+  background: #4e4ef0;
+  color: white;
+}
+
+.app-functions-con .app-function i {
+  font-size: 40px;
+}
+/*# sourceMappingURL=home.css.map */
